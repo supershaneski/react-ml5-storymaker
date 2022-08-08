@@ -27,8 +27,13 @@ To start writing story, go to `Write Story` from `Home` page.
 
 In `Edit` page, first, press `Start Paragraph` to start a paragraph. 
 
-You can type something into the textarea or leave it blank before pressing `Prompt` button.
+You can type something into the textarea or leave it blank before pressing `Prompt` button. Please wait for a moment as the content is generated. It is probably a good idea to put a loader around this part. Once the content is generated, it will be appended to the text area. You can press `Reject` if you do not like the generated content. Pressing `Clear` will delete all contents in the text area.
 
+If you press `Add`, it will add only sentences that is ending in either period or question mark to the story shown in the preview. The rest of the sentences that is not terminated by either one will be left behind in the text area.
+
+You can add more texts to previous paragraphs by click on it from the preview area.
+
+I only added `hemingway` and `shakespeare` models for generation because of the file size but you can download other pre-trained models from [here](https://github.com/ml5js/ml5-data-and-models/tree/main/models/charRNNN).
 
 
 # Getting Started
