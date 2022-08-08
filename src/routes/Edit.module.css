@@ -1,0 +1,174 @@
+.container {
+  background-color: #456268;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 2em;
+}
+
+.main {
+  background-color: #456255;
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.preview {
+  background-color: #fff;
+  position: relative;
+  height: 50%;
+  box-sizing: border-box;
+  padding: 1.5em;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 0px;
+}
+.content {
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.text {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.2em;
+  margin: 0 0 1em 0;
+  padding: 0.5em;
+  color: #444;
+}
+.text:hover {
+  border-radius: 12px;
+  background-color: #FCF8EC99;
+}
+
+.control {
+  background-color: #79A3B1;
+  position: relative;
+  height: 50%;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 0px;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.fab {
+  background-color: #ff676799;
+  position: fixed;
+  right: 1em;
+  bottom: 1em;
+  z-index: 10;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fab:hover {
+  background-color: #ff6767;
+}
+
+.textPanel {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.textArea {
+  background-color: #fff;
+  position: relative;
+  font-size: 1em;
+  color: #444;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.labelPanel {
+  position: relative;
+  margin-bottom: 5px;
+}
+.labelTitle {
+  font-size: 1em;
+}
+
+.optionPanel {
+  margin-top: 3em;
+}
+
+.controlPanel {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+.buttonPanel {
+  position: relative;
+  margin-bottom: 5px;
+  flex-shrink: 1;
+}
+.button {
+  font-size: 1em;
+}
+
+.selectPanel {
+  position: relative;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.select {
+  font-size: 1em;
+}
+
+.sliderPanel {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.label {
+  width: 100px;
+}
+.label::after {
+  content: ':';
+}
+.value {
+  width: 50px;
+  text-align: right;
+  color: #fff;
+}
+
+@media screen and (min-width: 800px) {
+  
+  .main {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  .preview {
+    width: 50%;
+    height: 100%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 12px;
+  }
+  
+  .control {
+    width: 50%;
+    height: 100%;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+  }
+
+  .textArea {
+    height: 200px;
+  }
+
+}

@@ -1,0 +1,47 @@
+.container {
+    background-color: #456268;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    position: relative;
+    width: 80%;
+    max-width: 450px;
+}
+
+.title {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    text-align: center;
+    color: #FCF8EC;
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.link {
+    background-color: #ff6767;
+    color: #FCF8EC;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em;
+    border-radius: 12px;
+}
+.link:hover {
+    color: #FCF8EC;
+}

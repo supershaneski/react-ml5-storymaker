@@ -1,0 +1,58 @@
+.container {
+    background-color: #456268;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 2em;
+}
+
+.main {
+    background-color: #FCF8EC;
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 2.5em;
+    z-index: 1;
+}
+
+.contents {
+    position: relative;
+    height: calc(100% - 2em);
+}
+
+.title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    font-style: italic;
+    text-shadow: 2px 2px #D0E8F2;
+    margin: 0 0 1em 0;
+    color: #456268;
+    text-align: center;
+    text-transform: capitalize;
+}
+.text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    margin: 0 0 1em 0;
+    color: #456268;
+}
+
+.fab {
+    background-color: #ff676799;
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    z-index: 10;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fab:hover {
+    background-color: #ff6767;
+}
