@@ -20,6 +20,7 @@
 .contents {
     position: relative;
     height: calc(100% - 2em);
+    overflow-y: auto;
 }
 
 .title {
